@@ -1,0 +1,75 @@
+.paginate {
+  display: flex;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+.paginate li {
+  margin: 0 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333333 !important;
+
+  width: 50px;
+  height: 50px;
+  background: rgba(51, 51, 51, 0.1);
+  border-radius: 5px;
+}
+
+.paginate li a {
+  width: 50px;
+  height: 50px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginate li.active {
+  background-color: #696cff;
+  color: #fff !important;
+}
+
+/* ckeditor */
+.cke_contents {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin: 30px 0 !important;
+}
+
+.cke_wysiwyg_div {
+  border: 1px solid lightgray !important;
+  border-radius: 5px !important;
+  width: 630px !important;
+  height: 891px !important;
+  padding: 30px !important;
+}
+
+.cke_toolbox {
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+
+.cke_toolgroup {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.list-unstyled .active {
+  background-color: #696cff;
+  color: #fff;
+}
+
+.list-unstyled .active .active-color {
+  color: #fff !important;
+}

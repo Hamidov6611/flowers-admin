@@ -1,0 +1,11 @@
+@media screen and (max-width: 778px) {
+    .hide2 {
+        display: none;
+    }
+    .iza {
+        width: 100%;
+    }
+    .dey {
+        width: 10%;
+    }
+}

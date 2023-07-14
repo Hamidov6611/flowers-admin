@@ -1,0 +1,17 @@
+@media screen and (max-width: 778px) {
+    .hide2 {
+        display: none;
+    }
+    .iza {
+        width: 90%;
+    }
+    .dey {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .hide1 {
+        display: none;
+    }
+}
